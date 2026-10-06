@@ -17,4 +17,3 @@ print(f'Improvement: {second_half_average - first_half_average}') #успева�
 print(f'Max: {s.idxmax()}') #макс оценка в каком месяце
 print(f'Perfect: {s.sort_values(ascending=False).head(5)}') #пять лучших оценок
 print(f'Round: {s.round(-1)}') #округляем до десятичной точки
-
